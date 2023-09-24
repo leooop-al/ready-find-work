@@ -1,13 +1,13 @@
-package work.ziyou.s202308.d01;
+package work.ziyou;
 
 public class ListNode {
-    protected int val;
-    protected ListNode next;
+    public int val;
+    public ListNode next;
 
     ListNode() {
     }
 
-    ListNode(int val) {
+    public ListNode(int val) {
         this.val = val;
     }
 
