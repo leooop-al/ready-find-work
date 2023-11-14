@@ -5,7 +5,7 @@ import work.ziyou.ListNode;
 /**
  * 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串 s ，判断字符串是否有效。
  */
-public class Leetcode21 {
+public class Leetcode20 {
 
     public static void main(String[] args) {
         ListNode listNode = new ListNode(1);
@@ -16,7 +16,7 @@ public class Leetcode21 {
         listNode2.next = new ListNode(3);
         listNode2.next.next = new ListNode(4);
 
-        Leetcode21 leetcode21 = new Leetcode21();
+        Leetcode20 leetcode21 = new Leetcode20();
         ListNode listNode1 = leetcode21.mergeTwoLists(listNode, listNode2);
 
         System.out.println(listNode1);
