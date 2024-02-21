@@ -8,6 +8,7 @@ package work.ziyou.s202401.d14;
 public class Leetcode207 {
 
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-
+        return true;
     }
+
 }
